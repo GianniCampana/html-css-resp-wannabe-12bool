@@ -1,0 +1,97 @@
+
+
+.container img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+
+.container .col-lg-12 .img-whyblock {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+.why .container{
+  margin-top: 5%;
+}
+
+/* COMMON */
+
+.container.grey {
+  background-color: #f9f9f9;
+  margin-top: 5%;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* VERSIONE MOBILE */
+
+@media all and (max-width: 767px) {
+
+  [class*="col-"]{
+    float: none;
+  }
+  .col-xs-6,
+  .col-xs-4{
+     width: 70%;
+  }
+  .background-yellow {
+    background-color: rgb(209, 209, 142);
+  }
+  .margin-auto{
+    margin: auto;
+  }
+}
+
+/* VERSIONE TABLET */
+
+
+
+@media all and (min-width: 768px) 
+and (max-width: 991px) {
+  .col-lg-12 h1{
+    background-color: blue;
+  }
+.container{
+  margin-top: 0%;
+}
+ .col-md-6{
+   width: 50%;
+   background-color:rgb(161, 255, 149);
+ }
+ .col-md-4{
+   width: 50%;
+   background-color: coral;
+ }
+ .background-red{
+   background-color: rgb(247, 65, 65);
+ }
+ .background-green{
+  background-color: rgb(0, 177, 0)
+}
+.padding-bot{
+  padding-bottom: 18px;
+}
+.centrale{
+  margin-left: 25%;
+  padding-top: 5%;
+}
+.why .container{
+  margin-top: 0%;
+  padding-top: 5%;
+}
+}
+
